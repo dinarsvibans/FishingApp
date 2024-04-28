@@ -1,0 +1,74 @@
+.bodyContainer{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../../public/stock-photo-fishing-tackle-background-725918911.jpg');
+  background-size: cover; /* Changed to cover for better fitting */
+  background-attachment: fixed;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 243, 243, 0.568);
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 50px;
+  }
+
+.card{
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    align-items: center;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    width: 100%;
+    background-color: #fff;
+    gap: 10px;
+}
+
+.cardImage {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+    z-index: 4;
+  }
+
+  .fishGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items:  center;
+    width: 100%; 
+  }
+  
+
+  .image{
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .link{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+
+  .postAuthor{
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .timeAndWeight{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.521);
+  }
